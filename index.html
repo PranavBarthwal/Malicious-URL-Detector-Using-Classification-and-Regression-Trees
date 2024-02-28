@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Prediction App</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        form {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            margin-right: 10px;
+        }
+
+        input[type="text"] {
+            padding: 5px;
+            width: 300px;
+        }
+
+        button[type="submit"] {
+            padding: 5px 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        #predictionResult {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>URL Prediction App</h1>
+            <!-- Add your navbar code here -->
+        </nav>
+    </header>
+
+    <main>
+        <h1>URL Prediction App</h1>
+        <form>
+            <label for="urlInput">Enter URL:</label>
+            <input type="text" id="urlInput" name="urlInput" placeholder="https://example.com">
+            <button type="submit">Predict</button>
+        </form>
+
+        <div id="predictionResult">
+            <!-- The prediction result will be displayed here -->
+        </div>
+    </main>
+
+    <footer>
+        <!-- Add your footer code here -->
+        &copy; 2024 URL Prediction App. All rights reserved.
+    </footer>
+</body>
+</html>
