@@ -1,0 +1,16 @@
+pandas
+numpy
+plotly
+TIME-python
+scikit-learn
+seaborn
+regex
+nltk
+matplotlib
+beautifulsoup4
+selenium
+networkx
+joblib
+wordcloud
+fastapi
+uvicorn
