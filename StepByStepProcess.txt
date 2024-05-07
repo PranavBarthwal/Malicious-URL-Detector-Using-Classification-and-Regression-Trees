@@ -1,0 +1,60 @@
+open anaconda terminal
+
+create a new environment to download all the libraries and files required for this project
+
+	conda conda create --name PhishingSiteUrlPrediction
+
+	select y to create new environment
+	
+	environment is successfully created
+
+
+now we install pip in our environment
+	
+	conda install -n phishingSiteUrlPrediction pip
+	
+	select y to install
+
+now activate the environment you created i.e. enter the environment
+	
+	conda activate phishingSiteUrlPrediction
+
+now you have entered you environment you can notice environment name before current directory name in terminal
+
+now we install all the dependencies/libraries required to run the program
+	
+	pip install -r requirements.txt
+	
+
+you can check all the libraries installed in you environment with command 'conda list'
+
+now install jupyter in your environment
+
+	pip install jupyter
+
+now launch jupyter notebook
+	
+	jupyter notebook
+
+this will open a folder on you default browser
+here open the Phishing Site URLs.ipynb file
+
+now at every cell you press shift+enter to execute it
+a cell can be seen if it is executed after pressing shift+enter by seeing the * mark changing to a number
+* mark appears when you press shift + enter to shiw execution going on
+
+execute every cell
+
+your model is trained sucessfully
+
+
+now go back to terminal and press ctrl+c
+this will close the jupyter notebook
+
+now we launch our simple website
+	uvicorn prediction_app:app --reload
+
+this will launch the website and a link will be shown on the terminal
+ctrl+click on that link or cpy paste on browser
+
+congratulations 🥳 🥳 🥳
